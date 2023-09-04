@@ -1,0 +1,54 @@
+.contact-heading{
+    text-align: center;
+    padding: 12px;
+    width: 100%;
+}
+.contact-bg{
+    background-color: #1C2B35;
+}
+
+.contact-fastname{
+   margin-bottom: 12px;
+}
+p{
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.con-1{
+    background-color: #1C2B35;
+    text-align: center;
+    border-color: 2px solid rgb(144, 43, 129);
+    margin-top: 20px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+input{
+    width: 70%;
+   
+
+    background-color:rgba(59, 86, 86, 0.543) ;
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+button{
+    background-color: aqua;
+    font-size: 17px;
+    margin-top: 15px;
+    padding:6px 12px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+button:hover{
+    box-shadow: 0px 0px 5px cyan,0px 0px 30px cyan,0px 0px 30px cyan,0px 0px 2500px cyan;
+}
+input:hover{
+    background-color: transparent;
+}

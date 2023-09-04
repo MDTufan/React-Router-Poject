@@ -1,0 +1,67 @@
+.Blog{
+  background-color: #1C2B35;
+}
+.blog {
+    width: 100%;
+    display: flex;
+    
+    
+}
+.xx-4{
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.contact {
+    text-align: center;
+    margin-top: 12px;
+}
+.R{
+    background-color: #1f242d;
+    height: 400px;
+    border: 3px solid #0ef;
+    transition: .5s;
+    
+    }
+    .R:hover{
+      transform: translateY(10px);
+      box-shadow: 0px 0px 5px cyan,0px 0px 30px cyan,0px 0px 30px cyan,0px 0px 100px cyan;
+      
+    }
+  .size-9{
+    font-size: 40px;
+    color: #0ef;
+    
+  }
+    
+    .textc-1{
+      text-align: center;
+      margin: 50px 0px 40px 0px;
+  
+    }
+   
+    .card {
+      text-align: center;
+      border-radius: 8px;
+      /* overflow: hidden; */
+      /* box-shadow: 4px 8px 36px #0ef; */
+      /* padding: 20px; */
+      
+      margin: 10px;
+      /* width: 300px; */
+      padding: 50px 0px;
+      /* margin-top: 12px; */
+      transition: .5s;
+      /* max-width: 100%; */
+    }
+  
+    
+    .card:hover{
+      transform: translateY(-10px);
+    }
+  
+    .card img {
+     width: 100%;
+      
+    }
+  
