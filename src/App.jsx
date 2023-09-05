@@ -9,6 +9,8 @@ import About from './Components/About';
 import Blogs from './Components/Blogs';
 import Contact from './Components/Contact';
 import Poject from './Components/Poject';
+import User from './Components/User';
+import Allusers from './Components/Allusers';
 
 
 function App() {
@@ -19,7 +21,18 @@ function App() {
       
       children: [
         {
-          path: "/",
+            path:"/",
+            element:<User />,
+            loader : ()=>fetch('https://jsonplaceholder.typicode.com/users')
+        },
+        {
+          path: "/users/:id",
+          element: <Allusers />,
+          loader :({params})=> fetch(`https://jsonplaceholder.typicode.com/users/${params.id}`)
+
+        },
+        {
+          path: "/home",
           element: <Home />,
           
         },

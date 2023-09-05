@@ -16,7 +16,10 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link  xx" to="/">Home</Link>
+          <Link className="nav-link  xx" to="/">User</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link  xx" to="/home">Home</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link  xx" to="/about">About</Link>

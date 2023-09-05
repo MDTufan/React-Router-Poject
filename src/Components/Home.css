@@ -144,5 +144,31 @@ h3{
       border-radius: 5px;
       margin-top: 10px;
     }
-    
-   
+    /* user section */
+   .img1-size1{
+    width: 200px !important;
+    border-radius: 50%;
+    background-color: rgb(24, 10, 55);
+   }
+.xx-xx{
+  background-color:burlywood;
+  width: 400px;
+}
+.xx-xx:hover{
+  box-shadow: 0px 0px 5px cyan,0px 0px 12px cyan,0px 0px 5px cyan,0px 0px 50px cyan;
+}
+.xx-xx h3{
+  padding-top: 10px;
+  color: #150566;
+}
+.website{
+  color: rgb(44, 5, 171);
+}
+.user-seaction{
+    background-color: #1C2B35;
+   }
+.color-user{
+  background-color: #1C2B35;
+  margin-top: 0px;
+
+}
